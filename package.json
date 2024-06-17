@@ -1,10 +1,13 @@
 {
-  "name": "my-uilibrary",
+  "name": "bespokeuilibrary",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "description": "A UI component library built with React",
   "author": "shagun-abjima",
   "license": "MIT",
-  "repository": "shagun-abjima/my-uilibrary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shagun-abjima/my-uilibrary.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -24,7 +27,11 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@mui/material": "^5.4.1",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",

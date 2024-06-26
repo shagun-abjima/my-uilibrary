@@ -1,7 +1,14 @@
 {
   "name": "bespokeuilibrary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A UI component library built with React",
+  "keywords": [
+    "react",
+    "ui",
+    "components",
+    "ReusableComponents",
+    "materialUi"
+  ],
   "author": "shagun-abjima",
   "license": "MIT",
   "repository": {

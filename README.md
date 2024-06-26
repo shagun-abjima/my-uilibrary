@@ -17,7 +17,7 @@ import React, { Component } from 'react'
 
 import MyComponent from 'my-uilibrary'
 import 'my-uilibrary/dist/index.css'
-
+s
 class Example extends Component {
   render() {
     return <MyComponent />

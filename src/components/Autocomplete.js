@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/core/Autocomplete';
 
-const AutocompleteComponent = ({
+const CustomAutocompleteComponent = ({
   options = [],
   onInputChange = () => {},
   onOptionSelected = () => {},
@@ -38,4 +38,4 @@ const AutocompleteComponent = ({
   );
 };
 
-export default AutocompleteComponent;
+export default CustomAutocompleteComponent;

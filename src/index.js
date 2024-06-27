@@ -7,7 +7,7 @@ export { default as CustomRating } from './components/Rating';
 export { default as CustomRadioGroup } from './components/Radiogroup';
 export { default as CustomCheckbox } from './components/Checkbox';
 export { default as CustomAvatar } from './components/Avatar';
-export { default as AutocompleteComponent } from './components/Autocomplete';
+export { default as CustomAutocomplete } from './components/Autocomplete';
 export { default as CustomList } from './components/List';
 export { default as CustomTable } from './components/Table';
 export { default as CustomTooltip } from './components/Tooltip';
